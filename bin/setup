@@ -18,7 +18,7 @@ FileUtils.chdir APP_ROOT do
   system('bundle check') || system!('bundle install')
 
   # Install JavaScript dependencies
-  system! 'bin/yarn'
+  # system! 'bin/yarn'
 
   # puts "\n== Copying sample files =="
   # unless File.exist?('config/database.yml')
@@ -26,6 +26,7 @@ FileUtils.chdir APP_ROOT do
   # end
 
   puts "\n== Preparing database =="
+  puts "\n   This may take about 2 mins..."
   system! 'bin/rails db:prepare'
 
   puts "\n== Removing old logs and tempfiles =="

@@ -2,6 +2,18 @@
 
 This repo contains a simplified Ruby on Rails app that implements various JSON serialization libraries. The application also contains a simple suite of tools to run benchmarks (via [Apache Bench](https://en.wikipedia.org/wiki/ApacheBench) (ab)).
 
+## Set up the app
+
+Once you've downloaded the repo, you should be able to install all of the dependencies and populate a local database by running the following command:
+
+``` bash
+bin/setup
+```
+
+## Note
+
+For the most reliable benchmarks, this app should be run in production mode. The production environment has been configured to use the same database as development.
+
 ## Benchmark
 
 The benchmark will test implementations of following serialization libraries:
