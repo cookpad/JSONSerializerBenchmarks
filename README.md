@@ -1,6 +1,6 @@
 # Rails JSON Serializer Benchmarks
 
-This repo contains a simplified Ruby on Rails app that implements various JSON serialization libraries. The application also contains a simple suite of tools to run benchmarks (via [Apache Bench](https://en.wikipedia.org/wiki/ApacheBench) (ab)).
+This repo contains a simplified Ruby on Rails app that implements various JSON serialization libraries. The application also contains a simple suite of tools to run benchmarks via [Apache Bench](https://en.wikipedia.org/wiki/ApacheBench) (ab).
 
 ## Set up the app
 
@@ -14,6 +14,13 @@ bin/setup
 
 For the most reliable benchmarks, this app should be run in production mode. The production environment has been configured to use the same database as development.
 
+Run the production application on your local machine with the following command
+
+``` bash
+bundle exec rails server -e production
+```
+
+
 ## Benchmark
 
 The benchmark will test implementations of following serialization libraries:
@@ -25,6 +32,14 @@ The benchmark will test implementations of following serialization libraries:
 - [Panko](https://github.com/panko-serializer/panko_serializer)
 
 Each controller endpoint has been [defined to be as similar as possible](spec/support/shared_examples.rb), in terms of the data that is loaded and rendered in the request body.
+
+By default, the benchmark script will run 1,000 queries with a concurrency of 2.
+
+The class [`Benchmark::AB`](./lib/benchmark/ab.rb) acts as a wrapper around the AB command-line tool, effectively calling:
+
+```
+ab -c2 -n1000 http://127.0.0.1:3000/benchmark/[solution name]/results.json
+```
 
 ## Benchmark results
 
