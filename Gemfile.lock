@@ -70,6 +70,7 @@ GEM
       public_suffix (>= 2.0.2, < 5.0)
     awesome_print (1.9.2)
     bindex (0.8.1)
+    blueprinter (0.25.3)
     bootsnap (1.9.3)
       msgpack (~> 1.0)
     builder (3.2.4)
@@ -243,6 +244,7 @@ PLATFORMS
 
 DEPENDENCIES
   active_model_serializers
+  blueprinter
   bootsnap (>= 1.4.4)
   capybara (>= 3.26)
   factory_bot_rails

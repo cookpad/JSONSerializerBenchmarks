@@ -19,6 +19,8 @@ gem 'bootsnap', '>= 1.4.4', require: false
 
 gem "active_model_serializers"
 
+gem "blueprinter"
+
 group :development, :test do
   gem "rspec-rails"
 
