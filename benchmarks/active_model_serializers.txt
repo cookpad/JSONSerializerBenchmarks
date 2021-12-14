@@ -13,30 +13,30 @@ Document Path:          /benchmark/active_model_serializers/recipes.json
 Document Length:        18895 bytes
 
 Concurrency Level:      2
-Time taken for tests:   20.867 seconds
+Time taken for tests:   21.035 seconds
 Complete requests:      1000
 Failed requests:        0
 Total transferred:      19344000 bytes
 HTML transferred:       18895000 bytes
-Requests per second:    47.92 [#/sec] (mean)
-Time per request:       41.734 [ms] (mean)
-Time per request:       20.867 [ms] (mean, across all concurrent requests)
-Transfer rate:          905.29 [Kbytes/sec] received
+Requests per second:    47.54 [#/sec] (mean)
+Time per request:       42.069 [ms] (mean)
+Time per request:       21.035 [ms] (mean, across all concurrent requests)
+Transfer rate:          898.07 [Kbytes/sec] received
 
 Connection Times (ms)
               min  mean[+/-sd] median   max
 Connect:        0    0   0.0      0       0
-Processing:    26   41   6.7     40      72
-Waiting:       26   41   6.7     39      72
-Total:         27   42   6.7     40      72
+Processing:    26   42   7.2     40      73
+Waiting:       26   42   7.2     39      73
+Total:         26   42   7.2     40      73
 
 Percentage of the requests served within a certain time (ms)
   50%     40
   66%     41
-  75%     43
-  80%     44
-  90%     52
+  75%     42
+  80%     43
+  90%     55
   95%     58
-  98%     62
-  99%     64
- 100%     72 (longest request)
+  98%     67
+  99%     68
+ 100%     73 (longest request)

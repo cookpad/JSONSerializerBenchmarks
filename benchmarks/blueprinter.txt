@@ -13,30 +13,30 @@ Document Path:          /benchmark/blueprinter/recipes.json
 Document Length:        18895 bytes
 
 Concurrency Level:      2
-Time taken for tests:   11.946 seconds
+Time taken for tests:   12.146 seconds
 Complete requests:      1000
 Failed requests:        0
 Total transferred:      19344000 bytes
 HTML transferred:       18895000 bytes
-Requests per second:    83.71 [#/sec] (mean)
-Time per request:       23.892 [ms] (mean)
-Time per request:       11.946 [ms] (mean, across all concurrent requests)
-Transfer rate:          1581.32 [Kbytes/sec] received
+Requests per second:    82.33 [#/sec] (mean)
+Time per request:       24.293 [ms] (mean)
+Time per request:       12.146 [ms] (mean, across all concurrent requests)
+Transfer rate:          1555.23 [Kbytes/sec] received
 
 Connection Times (ms)
               min  mean[+/-sd] median   max
 Connect:        0    0   0.0      0       0
 Processing:    18   24   3.4     23      37
-Waiting:       18   23   3.4     23      37
-Total:         18   24   3.4     23      38
+Waiting:       18   24   3.4     23      37
+Total:         18   24   3.4     23      37
 
 Percentage of the requests served within a certain time (ms)
   50%     23
   66%     24
-  75%     24
+  75%     25
   80%     25
-  90%     28
+  90%     29
   95%     33
-  98%     34
+  98%     35
   99%     36
- 100%     38 (longest request)
+ 100%     37 (longest request)

@@ -13,22 +13,22 @@ Document Path:          /benchmark/alba/recipes.json
 Document Length:        17835 bytes
 
 Concurrency Level:      2
-Time taken for tests:   11.118 seconds
+Time taken for tests:   11.189 seconds
 Complete requests:      1000
 Failed requests:        0
 Total transferred:      18284000 bytes
 HTML transferred:       17835000 bytes
-Requests per second:    89.95 [#/sec] (mean)
-Time per request:       22.236 [ms] (mean)
-Time per request:       11.118 [ms] (mean, across all concurrent requests)
-Transfer rate:          1606.02 [Kbytes/sec] received
+Requests per second:    89.37 [#/sec] (mean)
+Time per request:       22.379 [ms] (mean)
+Time per request:       11.189 [ms] (mean, across all concurrent requests)
+Transfer rate:          1595.75 [Kbytes/sec] received
 
 Connection Times (ms)
               min  mean[+/-sd] median   max
 Connect:        0    0   0.0      0       0
-Processing:    17   22   3.8     21      38
-Waiting:       16   22   3.8     21      38
-Total:         17   22   3.8     21      38
+Processing:    17   22   3.9     21      44
+Waiting:       17   22   3.9     21      44
+Total:         17   22   3.9     21      44
 
 Percentage of the requests served within a certain time (ms)
   50%     21
@@ -36,7 +36,7 @@ Percentage of the requests served within a certain time (ms)
   75%     23
   80%     23
   90%     27
-  95%     32
+  95%     33
   98%     35
-  99%     35
- 100%     38 (longest request)
+  99%     36
+ 100%     44 (longest request)

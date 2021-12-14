@@ -1,4 +1,4 @@
-if ENV['API_MODE']
+if ENV["API_MODE"]
   class ApplicationController < ActionController::API
   end
 else

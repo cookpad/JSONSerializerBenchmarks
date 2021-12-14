@@ -13,30 +13,30 @@ Document Path:          /benchmark/j_builder/recipes.json
 Document Length:        19375 bytes
 
 Concurrency Level:      2
-Time taken for tests:   17.020 seconds
+Time taken for tests:   16.978 seconds
 Complete requests:      1000
 Failed requests:        0
 Total transferred:      19824000 bytes
 HTML transferred:       19375000 bytes
-Requests per second:    58.76 [#/sec] (mean)
-Time per request:       34.039 [ms] (mean)
-Time per request:       17.020 [ms] (mean, across all concurrent requests)
-Transfer rate:          1137.48 [Kbytes/sec] received
+Requests per second:    58.90 [#/sec] (mean)
+Time per request:       33.957 [ms] (mean)
+Time per request:       16.978 [ms] (mean, across all concurrent requests)
+Transfer rate:          1140.23 [Kbytes/sec] received
 
 Connection Times (ms)
               min  mean[+/-sd] median   max
-Connect:        0    0   0.1      0       3
-Processing:    21   34   6.0     32      58
-Waiting:       21   34   6.0     32      58
-Total:         21   34   6.0     32      58
+Connect:        0    0   0.0      0       0
+Processing:    26   34   5.9     32      59
+Waiting:       26   34   5.9     32      59
+Total:         26   34   5.9     32      59
 
 Percentage of the requests served within a certain time (ms)
   50%     32
   66%     34
   75%     35
   80%     36
-  90%     43
+  90%     42
   95%     49
-  98%     52
-  99%     53
- 100%     58 (longest request)
+  98%     53
+  99%     55
+ 100%     59 (longest request)

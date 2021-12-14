@@ -38,11 +38,11 @@ MacBook Pro (16-inch, 2019)
 ### Abbreviated results
 
 ``` txt
-Test:   alba                            11.097 seconds
-Test:   panko                           11.650 seconds
-Test:   blueprinter                     12.040 seconds
-Test:   j_builder                       16.998 seconds
-Test:   active_model_serializers        20.926 seconds
+Test:   alba                            11.189 seconds
+Test:   panko                           11.677 seconds
+Test:   blueprinter                     12.146 seconds
+Test:   j_builder                       16.978 seconds
+Test:   active_model_serializers        21.035 seconds
 ```
 
 ### Full results

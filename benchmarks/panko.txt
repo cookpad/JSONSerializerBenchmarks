@@ -13,30 +13,30 @@ Document Path:          /benchmark/panko/recipes.json
 Document Length:        17835 bytes
 
 Concurrency Level:      2
-Time taken for tests:   11.757 seconds
+Time taken for tests:   11.677 seconds
 Complete requests:      1000
 Failed requests:        0
 Total transferred:      18284000 bytes
 HTML transferred:       17835000 bytes
-Requests per second:    85.06 [#/sec] (mean)
-Time per request:       23.514 [ms] (mean)
-Time per request:       11.757 [ms] (mean, across all concurrent requests)
-Transfer rate:          1518.71 [Kbytes/sec] received
+Requests per second:    85.64 [#/sec] (mean)
+Time per request:       23.354 [ms] (mean)
+Time per request:       11.677 [ms] (mean, across all concurrent requests)
+Transfer rate:          1529.12 [Kbytes/sec] received
 
 Connection Times (ms)
               min  mean[+/-sd] median   max
 Connect:        0    0   0.0      0       0
-Processing:    17   23   4.2     22      52
-Waiting:       17   23   4.2     22      52
-Total:         17   23   4.2     22      52
+Processing:    16   23   4.3     22      41
+Waiting:       16   23   4.3     22      41
+Total:         17   23   4.3     22      42
 
 Percentage of the requests served within a certain time (ms)
   50%     22
   66%     23
   75%     24
-  80%     25
+  80%     24
   90%     29
   95%     35
-  98%     37
-  99%     37
- 100%     52 (longest request)
+  98%     38
+  99%     38
+ 100%     42 (longest request)
