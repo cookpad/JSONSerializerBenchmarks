@@ -1,6 +1,6 @@
 # Rails JSON Serializer Benchmarks
 
-This repo contains a simplified Ruby on Rails app that implements various JSON serialization libraries. The application also contains a simple suite of tools to run benchmarks (via Apache Bench (ab)).
+This repo contains a simplified Ruby on Rails app that implements various JSON serialization libraries. The application also contains a simple suite of tools to run benchmarks (via [Apache Bench](https://en.wikipedia.org/wiki/ApacheBench) (ab)).
 
 ## Benchmark
 
