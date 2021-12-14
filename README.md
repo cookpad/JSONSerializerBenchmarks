@@ -84,7 +84,7 @@ Full results from each benchmark can be found in the [`benchmarks`](./benchmarks
 
 ## Results with OJ
 
-As an optional extra benchmark, I added the OJ gem and [set this as the default JSON library](https://github.com/ohler55/oj/blob/develop/pages/Rails.md). This is disabled by default, but can be activated by setting the ENV variable `OJ` when running the application server. Applying OJ is clearly beneficial, but also yields results in a different order.
+As an optional extra benchmark, I added the [OJ gem](https://github.com/ohler55/oj) and [set this as the default JSON library](https://github.com/ohler55/oj/blob/develop/pages/Rails.md). This is disabled by default, but can be activated by setting the ENV variable `OJ` when running the application server. Applying OJ is clearly beneficial, but also yields results in a different order.
 
 ```
 Test:   panko                           9.579 seconds
