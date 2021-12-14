@@ -4,7 +4,7 @@ module Benchmark
       attributes :name, :email, :language, :country
 
       attributes created_at: cast_as_xml_datetime,
-                 updated_at: cast_as_xml_datetime
+        updated_at: cast_as_xml_datetime
     end
   end
 end

@@ -6,7 +6,6 @@ module Benchmark
 
       association :user, blueprint: UserSerializer, name: :author
       association :comments, blueprint: CommentSerializer
-
     end
   end
 end
