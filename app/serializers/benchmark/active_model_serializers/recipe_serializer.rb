@@ -9,7 +9,7 @@ module Benchmark
 
       belongs_to :user, serializer: UserSerializer, key: "author"
 
-      has_many :comments
+      has_many :comments, serializer: CommentSerializer
     end
   end
 end

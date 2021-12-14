@@ -1,0 +1,42 @@
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 127.0.0.1 (be patient)
+
+
+Server Software:        
+Server Hostname:        127.0.0.1
+Server Port:            3000
+
+Document Path:          /benchmark/j_builder/recipes.json
+Document Length:        19375 bytes
+
+Concurrency Level:      2
+Time taken for tests:   17.020 seconds
+Complete requests:      1000
+Failed requests:        0
+Total transferred:      19824000 bytes
+HTML transferred:       19375000 bytes
+Requests per second:    58.76 [#/sec] (mean)
+Time per request:       34.039 [ms] (mean)
+Time per request:       17.020 [ms] (mean, across all concurrent requests)
+Transfer rate:          1137.48 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.1      0       3
+Processing:    21   34   6.0     32      58
+Waiting:       21   34   6.0     32      58
+Total:         21   34   6.0     32      58
+
+Percentage of the requests served within a certain time (ms)
+  50%     32
+  66%     34
+  75%     35
+  80%     36
+  90%     43
+  95%     49
+  98%     52
+  99%     53
+ 100%     58 (longest request)

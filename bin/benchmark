@@ -1,0 +1,14 @@
+#!/usr/bin/env ruby
+
+$LOAD_PATH.prepend(File.expand_path("../lib", File.dirname(__FILE__)))
+require "benchmark/ab"
+require "benchmark/report"
+
+puts "Running all benchmarks (this will take about 2 minutes)..."
+Benchmark::AB.new("active_model_serializers").run!
+Benchmark::AB.new("alba").run!
+Benchmark::AB.new("blueprinter").run!
+Benchmark::AB.new("j_builder").run!
+Benchmark::AB.new("panko").run!
+
+puts Benchmark::Report.new

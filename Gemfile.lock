@@ -285,6 +285,7 @@ DEPENDENCIES
   jbuilder (~> 2.7)
   listen (~> 3.3)
   mysql2 (~> 0.5)
+  oj
   panko_serializer
   puma (~> 5.0)
   rack-mini-profiler (~> 2.0)
@@ -297,6 +298,7 @@ DEPENDENCIES
   rubocop-performance (~> 1.12)
   rubocop-rails (~> 2.12)
   rubocop-rspec (~> 2.6)
+  ruby-progressbar
   selenium-webdriver
   spring
   tzinfo-data
