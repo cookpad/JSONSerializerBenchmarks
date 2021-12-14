@@ -14,7 +14,7 @@ module SharedExamples
       )
 
       get "/benchmark/#{path}/recipes.json"
-
+      puts JSON.load(response.body)
       expect(response).to have_http_status(200)
       expect(response.body).to include_json(data: [
         { title: "Recipe title",

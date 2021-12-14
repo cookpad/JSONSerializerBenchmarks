@@ -1,6 +1,6 @@
 module Benchmark
   module ActiveModelSerializers
-    class UserSerializer < ActiveModel::Serializer
+    class UserSerializer < SerializerBase
       attributes :id
       attributes :name
       attributes :email

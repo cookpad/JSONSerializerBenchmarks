@@ -1,6 +1,6 @@
 module Benchmark
   module Blueprinter
-    class RecipeSerializer < ::Blueprinter::Base
+    class RecipeSerializer < SerializerBase
       identifier :id
       fields :title, :content, :created_at, :updated_at, :state, :published_at
 

@@ -1,22 +1,11 @@
 Rails.application.routes.draw do
   namespace :benchmark, constraints: { format: :json } do
-    namespace :j_builder do
-      resources :recipes
-    end
-    namespace :blueprinter do
-      resources :recipes
-    end
-    namespace :json_api_resources do
-      resources :recipes
-    end
-    namespace :fast_json do
-      resources :recipes
-    end
-    namespace :jsonapi_rb do
-      resources :recipes
-    end
-    namespace :active_model_serializers do
-      resources :recipes
-    end
+    namespace(:active_model_serializers) { resources :recipes }
+    namespace(:alba) { resources :recipes }
+    namespace(:blueprinter) { resources :recipes }
+    namespace(:fast_json) { resources :recipes }
+    namespace(:j_builder) { resources :recipes }
+    namespace(:jsonapi_rb) { resources :recipes }
+    namespace(:json_api_resources) { resources :recipes }
   end
 end

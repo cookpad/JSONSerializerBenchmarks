@@ -1,6 +1,6 @@
 module Benchmark
   module ActiveModelSerializers
-    class RecipeSerializer < ActiveModel::Serializer
+    class RecipeSerializer < SerializerBase
       attributes :id, :title, :content, :state
 
       attribute(:created_at) { object.created_at.xmlschema }

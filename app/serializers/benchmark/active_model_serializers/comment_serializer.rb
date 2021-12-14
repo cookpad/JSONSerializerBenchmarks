@@ -1,6 +1,6 @@
 module Benchmark
   module ActiveModelSerializers
-    class CommentSerializer < ActiveModel::Serializer
+    class CommentSerializer < SerializerBase
       attributes :id
       attribute :content
       attribute(:created_at) { object.created_at.xmlschema }

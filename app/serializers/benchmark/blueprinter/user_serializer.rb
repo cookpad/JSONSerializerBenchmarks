@@ -1,6 +1,6 @@
 module Benchmark
   module Blueprinter
-    class UserSerializer < ::Blueprinter::Base
+    class UserSerializer < SerializerBase
       identifier :id
       fields :name, :email, :created_at, :updated_at, :language, :country
     end
