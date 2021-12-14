@@ -1,6 +1,10 @@
 class Recipe < ApplicationRecord
+  # Simulate pagination. 20 per page, page nr 2
+  PER_PAGE = 20
+  CURRENT_PAGE = 2
+
   belongs_to :user
-  has_many :comments, as: :commentable
+  has_many :comments, as: :commentable, dependent: :destroy
 
   def self.for_benchmark_index
     where(state: "published").
@@ -13,12 +17,10 @@ class Recipe < ApplicationRecord
   scope :page, -> { Rational(offset_value, limit_value).to_i + 1 }
 
   def self.per_page
-    20
+    PER_PAGE
   end
 
   def self.pagination_offset
-    # Simulate pagination. 20 per page, page nr 2
-    current_page = 2
-    per_page * (current_page - 1)
+    PER_PAGE * (CURRENT_PAGE - 1)
   end
 end
