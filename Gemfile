@@ -9,8 +9,6 @@ gem 'rails', '~> 6.1.4', '>= 6.1.4.1'
 gem 'mysql2', '~> 0.5'
 # Use Puma as the app server
 gem 'puma', '~> 5.0'
-# Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
-gem 'jbuilder', '~> 2.7'
 
 gem "redis-rails"
 
@@ -19,7 +17,11 @@ gem 'bootsnap', '>= 1.4.4', require: false
 
 gem "active_model_serializers"
 
+gem 'alba'
+
 gem "blueprinter"
+
+gem 'jbuilder', '~> 2.7'
 
 group :development, :test do
   gem "rspec-rails"
