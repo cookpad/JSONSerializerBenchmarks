@@ -23,6 +23,8 @@ gem "blueprinter"
 
 gem 'jbuilder', '~> 2.7'
 
+gem "panko_serializer"
+
 group :development, :test do
   gem "rspec-rails"
 
