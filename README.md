@@ -64,6 +64,8 @@ MacBook Pro (16-inch, 2019)
 
 ### Abbreviated results
 
+_Time taken to execute 1,000 requests_
+
 ``` txt
 Test:   alba                            11.189 seconds
 Test:   panko                           11.677 seconds
